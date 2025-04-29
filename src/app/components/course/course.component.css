@@ -1,0 +1,22 @@
+.course {
+    font-size: 32px;
+    background-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    font-size: 18px;
+}

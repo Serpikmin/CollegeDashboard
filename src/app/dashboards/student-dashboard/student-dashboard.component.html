@@ -1,0 +1,15 @@
+<h1 class="header">
+    Welcome {{ name }}!
+</h1>
+
+<h3 class="courses">
+    Your current courses:
+    <div class="courses-container">
+        <app-course code="CSC108" name="Introduction to Programming" description="An intro course designed to teach you the basics of programming" (click)="onAttendClick()"/>
+        <app-course code="ENG101" name="Introduction to English Literature" description="An intro course going over various classic English novels and plays" (click)="onAttendClick()"/>
+        <app-course code="MAT102" name="Introduction to Mathematical Proofs" description="A course introducing you to the concept of discreate mathematics" (click)="onAttendClick()"/>
+    </div>
+
+    <app-pie-chart [label1]="label1" [label2]="label2" [number1]=0 [number2]=3/>
+</h3>
+

@@ -1,0 +1,14 @@
+.header {
+    width: 50%;
+    margin: 5% auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.graph {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20%;
+}

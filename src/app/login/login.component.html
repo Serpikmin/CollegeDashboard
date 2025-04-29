@@ -1,0 +1,14 @@
+<div class="login-container">
+    <h2>College Dashboard Sign-in</h2>
+        <div class="fields">
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input matInput [formControl]="email">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput type="password" [formControl]="password">
+            </mat-form-field>
+            <button mat-flat-button (click)="onLoginClick()">Login</button>
+        </div>
+</div>

@@ -1,0 +1,17 @@
+.header {
+    width: 50%;
+    margin: 5% auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.courses {
+    padding-left: 25%;
+    margin-top: 5px;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

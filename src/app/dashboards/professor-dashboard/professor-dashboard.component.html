@@ -1,0 +1,20 @@
+<h1 class="header">
+    Welcome Professor!
+</h1>
+
+<h3 class="courses">
+    Your current courses:
+    <div class="courses-container">
+        <app-course code="CSC108" name="Introduction to Programming" [studentView]=false/>
+        <app-course code="MAT102" name="Introduction to Mathematical Proofs" [studentView]=false/>
+    </div>
+
+    <ag-grid-angular
+    style="width: 71%; height: 200px;"
+    [rowData]="rowData"
+    [columnDefs]="colDefs"
+/>
+</h3>
+
+
+

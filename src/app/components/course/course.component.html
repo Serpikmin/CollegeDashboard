@@ -1,0 +1,11 @@
+<div class="course">
+    <div class="course-info"> 
+        <div>{{ code }} - {{ name }}</div>
+        @if (studentView) {
+            <div class="description">{{ description }}</div>
+        }
+    </div>
+    @if (studentView) {
+        <button mat-flat-button (click)="onClick()">Attend</button>
+    }
+</div>
